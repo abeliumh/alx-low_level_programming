@@ -16,6 +16,6 @@ printf("%s %d %s %d %s\n", "Last digit of", n, "is", n % 10, "and is greater tha
 else if ((n % 10) == 5)
 printf("%s %d %s %d %s\n", "Last digit of", n, "is", n % 10, "and is equal to 5");
 else if ((n % 10) < 6)
-printf("%s %d %s %d %s\n", "Last digit of", n, "is", n % 10, "and is less than 5");
+printf("%s %d %s %d %s\n", "Last digit of", n, "is", n % 10, "and is less than 6 and not 0");
 return (0);
 }
