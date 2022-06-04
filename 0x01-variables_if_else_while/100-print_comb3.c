@@ -1,31 +1,27 @@
 #include <stdio.h>
 /**
- * main - print if the number is postive, zero, or negative
+ * main - outputing 2 digit combination of numbers
  *
- * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
- * Return: 0
+ * Return: 0 on success
  */
 int main(void)
 {
-	int i, j;
+	int i;
+	int j;
 
-	for (i = '0'; i <= '8'; i++)
+	for (i = 48; i < 57; i++)
 	{
-		for (j = i + 1; j <= '9'; j++)
+		for (j = i + 1; j < 58; j++)
 		{
 			putchar(i);
 			putchar(j);
-			if (i != '8' && j != '9')
+			if (i != 56 || j != 57)
 			{
 				putchar(',');
 				putchar(' ');
 			}
-			else
-				continue;
 		}
 	}
 	putchar('\n');
-
 	return (0);
 }
