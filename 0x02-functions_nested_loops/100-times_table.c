@@ -14,17 +14,15 @@ void print_times_table(int n)
             		for (j = 0; j < n; j++)
             		{
                 		r = (i * j);
-                		_putchar(i * j + '0');
-				_putchar(',');
-                		if (r < 10)
+                		_pi * j + '0');
+				_putchar < 10)
 				{
                     			_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
 				}
                 		else if (r < 100)
-				{
-                    			_putchar(' ');
+	_putchar(' ');
 					_putchar(' ');
 				}
                 		else if (r < 1000)
@@ -33,5 +31,5 @@ void print_times_table(int n)
             		_putchar(i * n + '0');
             		_putchar('\n');
         	}
-    	}
+    }
 }
